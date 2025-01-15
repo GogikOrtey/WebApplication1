@@ -14,9 +14,14 @@ namespace WebApplication1.Controllers
         {
             string s = ScanDiscC.TestAssecc_returnString();
 
+            // SplitStringByNewline - это процедура, которая строку с переносами типа \n
+            // разбивает на массив строк, и возвращает его (для корректного вывода в JSON формате)
+
             //string [] response = SplitStringByNewline(GetSimpleReuest());
 
-            string[] response = SplitStringByNewline(s);
+            //string[] response = SplitStringByNewline(s);
+
+            string[] response = SplitStringByNewline(ScanDiscC.GetBufer_StructDiskC());
 
             return response;
 
