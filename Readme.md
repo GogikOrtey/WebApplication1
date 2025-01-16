@@ -11,7 +11,7 @@
 
 Скриншот выполнения главного запроса в Swagger:
 
-[](picture/01.png)
+[](WebApplication1/picture/01.png)
 
 ---
 
