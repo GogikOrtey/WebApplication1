@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|c:\\users\\orlov\\desktop\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0434\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webapplication1\\webapplication1\\controllers\\structdiskccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\structdiskccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|c:\\users\\orlov\\desktop\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0434\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webapplication1\\webapplication1\\scandiscc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\scandiscc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|c:\\users\\orlov\\desktop\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0434\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webapplication1\\webapplication1\\controllers\\structdiskccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\structdiskccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|c:\\users\\orlov\\desktop\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0434\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,8 +58,7 @@
               "RelativeToolTip": "WebApplication1\\AddDescriptionOperationFilter.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T05:31:39.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T05:31:39.228Z"
             },
             {
               "$type": "Document",
@@ -76,26 +75,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StructDiskCController.cs",
               "DocumentMoniker": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\Controllers\\StructDiskCController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StructDiskCController.cs",
               "ToolTip": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\Controllers\\StructDiskCController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\StructDiskCController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T10:09:47.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ScanDiscC.cs",
               "DocumentMoniker": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\ScanDiscC.cs",
               "RelativeDocumentMoniker": "WebApplication1\\ScanDiscC.cs",
               "ToolTip": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\ScanDiscC.cs",
               "RelativeToolTip": "WebApplication1\\ScanDiscC.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAF4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T11:06:25.407Z",
               "EditorCaption": ""
@@ -110,8 +109,7 @@
               "RelativeToolTip": "WebApplication1\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:44:21.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T05:44:21.143Z"
             },
             {
               "$type": "Document",
