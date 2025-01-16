@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p0qaQCkcu6A=",
+  "dgSpecHash": "pr6z28U+Bzw=",
   "success": true,
   "projectFilePath": "C:\\Users\\orlov\\Desktop\\Проекты\\3_Другие задачи и проекты\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,9 @@
     "C:\\Users\\orlov\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\orlov\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "C:\\Users\\orlov\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
-    "C:\\Users\\orlov\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
+    "C:\\Users\\orlov\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "C:\\Users\\orlov\\.nuget\\packages\\system.codedom\\9.0.1\\system.codedom.9.0.1.nupkg.sha512",
+    "C:\\Users\\orlov\\.nuget\\packages\\system.management\\9.0.1\\system.management.9.0.1.nupkg.sha512"
   ],
   "logs": []
 }

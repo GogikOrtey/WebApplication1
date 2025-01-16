@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\Readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|c:\\users\\orlov\\desktop\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0434\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webapplication1\\webapplication1\\controllers\\structdiskccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\structdiskccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|c:\\users\\orlov\\desktop\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0434\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webapplication1\\webapplication1\\adddescriptionoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\adddescriptionoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|c:\\users\\orlov\\desktop\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0434\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webapplication1\\webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|c:\\users\\orlov\\desktop\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0434\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|c:\\users\\orlov\\desktop\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0434\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\webapplication1\\webapplication1\\scandiscc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A984910-2ACA-4B85-996C-597D3A174B82}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\scandiscc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +50,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "AddDescriptionOperationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\AddDescriptionOperationFilter.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\AddDescriptionOperationFilter.cs",
+              "ToolTip": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\AddDescriptionOperationFilter.cs",
+              "RelativeToolTip": "WebApplication1\\AddDescriptionOperationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T05:31:39.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T05:16:52.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StructDiskCController.cs",
+              "DocumentMoniker": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\Controllers\\StructDiskCController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StructDiskCController.cs",
+              "ToolTip": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\Controllers\\StructDiskCController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\StructDiskCController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T10:09:47.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScanDiscC.cs",
+              "DocumentMoniker": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\ScanDiscC.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\ScanDiscC.cs",
+              "ToolTip": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\ScanDiscC.cs",
+              "RelativeToolTip": "WebApplication1\\ScanDiscC.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:06:25.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:44:21.143Z",
+              "WhenOpened": "2025-01-15T05:44:21.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Readme.md",
+              "DocumentMoniker": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\Readme.md",
+              "RelativeDocumentMoniker": "Readme.md",
+              "ToolTip": "C:\\Users\\orlov\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\3_\u0414\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B\\WebApplication1\\Readme.md",
+              "RelativeToolTip": "Readme.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-01-15T05:57:46.951Z",
               "EditorCaption": ""
             }
           ]
