@@ -23,7 +23,8 @@ namespace WebApplication1
             {
                 // Возвращаем буферные значения
 
-                string filePath = "Out_1.txt";
+                string directoryPath = AppDomain.CurrentDomain.BaseDirectory;
+                string filePath = Path.Combine(directoryPath, "Out_1.txt");
                 string fileContent = File.ReadAllText(filePath);
 
                 return fileContent;
@@ -118,7 +119,7 @@ namespace WebApplication1
             //
 
             // Путь к текстовому файлу
-            string filePath = "Out_1.txt";
+            string filePath = @"\bin\Debug\net8.0\Out_1.txt";
 
             if (!(File.Exists(filePath)))
             {
@@ -250,7 +251,7 @@ namespace WebApplication1
 
         // Максимальное количество вложенных папок, которое будет выведено
         // Если = 0, то без ограничения
-        static int maxCountRecurse = 2; ////////////////////////////////////// Потом поставить 0
+        static int maxCountRecurse = 1; ////////////////////////////////////// Потом поставить 0
 
         static bool printLvlId = false;                 // Печатать ли номер уровня вложенной папки?
         static bool printAccessReadFolderError = true;  // Печатать ли предупреждения, когда папка недоступна для чтения?
@@ -361,6 +362,7 @@ namespace WebApplication1
         {
             string text = OutTextToTxtFiles;
             string fileName = "Out_1.txt";
+            //string fileName = @"\bin\Debug\net8.0\Out_1.txt";
 
             try
             {
@@ -368,6 +370,8 @@ namespace WebApplication1
                 string directoryPath = AppDomain.CurrentDomain.BaseDirectory;
                 // Объединяем путь директории и имя файла
                 string filePath = Path.Combine(directoryPath, fileName);
+
+                //print("directoryPath = " + directoryPath + ", filePath = " + filePath);
 
                 // Записываем текст в файл
                 File.WriteAllText(filePath, text);
