@@ -9,15 +9,8 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class StructDiskCController : ControllerBase
     {
-        /// <summary>
-        /// Получение данных со структуры диска C.
-        /// </summary>
-        /// <remarks>
-        /// Этот эндпоинт может занять до 5 минут для обработки запроса.
-        /// </remarks>
-        /// <returns>Массив строк с данными.</returns>
         // GET: api/<StructDiskCController>
-        [HttpGet]
+        [HttpGet("/StructDiskC")]
         public IEnumerable<string> Get()
         {
             string s = ScanDiscC.TestAssecc_returnString();
@@ -36,6 +29,13 @@ namespace WebApplication1.Controllers
             //yield return response;
             //yield return "Test 1";
             //return new string[] { "value1", "value2" };
+        }
+
+        [HttpGet("/StructDiskC_Bufer")]
+        public IEnumerable<string> GetBufer()
+        {
+            string[] response = SplitStringByNewline(ScanDiscC.GetBufer_StructDiskC());
+            return response;
         }
 
         //// GET api/<StructDiskCController>/5

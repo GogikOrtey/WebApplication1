@@ -8,7 +8,6 @@ C:\Users\orlov\Desktop\Проекты\3_Другие задачи и проек�
 C:\Users\orlov\Desktop\Проекты\3_Другие задачи и проекты\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
 C:\Users\orlov\Desktop\Проекты\3_Другие задачи и проекты\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\orlov\Desktop\Проекты\3_Другие задачи и проекты\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettings.json
-C:\Users\orlov\Desktop\Проекты\3_Другие задачи и проекты\WebApplication1\WebApplication1\bin\Debug\net8.0\swagger.json
 C:\Users\orlov\Desktop\Проекты\3_Другие задачи и проекты\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.endpoints.json
 C:\Users\orlov\Desktop\Проекты\3_Другие задачи и проекты\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.exe
 C:\Users\orlov\Desktop\Проекты\3_Другие задачи и проекты\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.deps.json
