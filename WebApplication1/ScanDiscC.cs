@@ -22,17 +22,11 @@ namespace WebApplication1
             if (isBuferDataExists_andCorrect() == true)
             {
                 // Возвращаем буферные значения
-
-                string directoryPath = AppDomain.CurrentDomain.BaseDirectory;
-                string filePath = Path.Combine(directoryPath, "Out_1.txt");
-                string fileContent = File.ReadAllText(filePath);
-
-                return fileContent;
+                return MainGetBuferData();
             }
             else
             {
                 // Получаем структуру папок заново
-
                 return GetCurrent_StructDiskC();
             }
         }
@@ -60,48 +54,25 @@ namespace WebApplication1
         //     Методы, для обработки вывода буферного файла     //
         //------------------------------------------------------//
 
+        //
+        // Главная процедура возврата буферных значений
+        //
 
-        // Возвращает id процессора текущего компьютера
-        static string getCurrentPSid()
+        static string MainGetBuferData()
         {
-            string cpuId = "";
-            ManagementObjectSearcher searcher = new ManagementObjectSearcher("select ProcessorId from Win32_Processor");
-            foreach (ManagementObject obj in searcher.Get())
-            {
-                cpuId = obj["ProcessorId"].ToString();
-                break;
-            }
+            string result = "";
 
-            if (cpuId == null) cpuId = "-";
+            // Загружаем текстовый файл
+            string directoryPath = AppDomain.CurrentDomain.BaseDirectory;
+            string filePath = Path.Combine(directoryPath, "Out_1.txt");
+            string fileContent = File.ReadAllText(filePath);
 
-            return cpuId;
-        }
+            // Добавляем немного информации
+            fileContent = "📒 Вывод данных из буфера\n" + fileContent;
+            fileContent = fileContent.Replace("Текущая дата и время:", "Дата и время последнего сканирования:");
 
-        // Возвращает сохранённый id процессора компьютера
-        static string getSavedCPUidValue()
-        {
-            string filePath = "SavedCPUidValue.txt";
-            string cpuIdValue = "";
-
-            using (StreamReader reader = new StreamReader(filePath))
-            {
-                cpuIdValue = reader.ReadToEnd();
-            }
-
-            return cpuIdValue;
-        }
-
-        // Сохраняет текущее id процессора компьютера в текстовый файл
-        // Сохранённое текстовое значение нужно для дальнейшей проверки, и используется в процедуре isBuferDataExists_andCorrect
-        static void WriteCurrentCPUidValue_FromTxtFile()
-        {
-            string filePath = "SavedCPUidValue.txt";
-            string cpuId = getCurrentPSid();
-
-            using (StreamWriter writer = new StreamWriter(filePath, false))
-            {
-                writer.Write(cpuId);
-            }
+            result = fileContent;
+            return result;
         }
 
         //
@@ -119,7 +90,8 @@ namespace WebApplication1
             //
 
             // Путь к текстовому файлу
-            string filePath = @"\bin\Debug\net8.0\Out_1.txt";
+            string directoryPath = AppDomain.CurrentDomain.BaseDirectory;
+            string filePath = Path.Combine(directoryPath, "Out_1.txt");
 
             if (!(File.Exists(filePath)))
             {
@@ -191,6 +163,50 @@ namespace WebApplication1
             return true; // Корректно. Можем возвращать кешированную структуру диска
         }
 
+        // Возвращает id процессора текущего компьютера
+        static string getCurrentPSid()
+        {
+            string cpuId = "";
+            ManagementObjectSearcher searcher = new ManagementObjectSearcher("select ProcessorId from Win32_Processor");
+            foreach (ManagementObject obj in searcher.Get())
+            {
+                cpuId = obj["ProcessorId"].ToString();
+                break;
+            }
+
+            if (cpuId == null) cpuId = "-";
+
+            return cpuId;
+        }
+
+        // Возвращает сохранённый id процессора компьютера
+        static string getSavedCPUidValue()
+        {
+            string filePath = "SavedCPUidValue.txt";
+            string cpuIdValue = "";
+
+            using (StreamReader reader = new StreamReader(filePath))
+            {
+                cpuIdValue = reader.ReadToEnd();
+            }
+
+            return cpuIdValue;
+        }
+
+        // Сохраняет текущее id процессора компьютера в текстовый файл
+        // Сохранённое текстовое значение нужно для дальнейшей проверки, и используется в процедуре isBuferDataExists_andCorrect
+        static void WriteCurrentCPUidValue_FromTxtFile()
+        {
+            string filePath = "SavedCPUidValue.txt";
+            string cpuId = getCurrentPSid();
+
+            using (StreamWriter writer = new StreamWriter(filePath, false))
+            {
+                writer.Write(cpuId);
+            }
+        }
+
+
 
 
 
@@ -251,20 +267,22 @@ namespace WebApplication1
 
         // Максимальное количество вложенных папок, которое будет выведено
         // Если = 0, то без ограничения
-        static int maxCountRecurse = 1; ////////////////////////////////////// Потом поставить 0
+        static int maxCountRecurse = 0;                 ///// Для тестирования алгоритма сканирования, рекомендую установить уровень вложенности папок на 1 или 2
 
         static bool printLvlId = false;                 // Печатать ли номер уровня вложенной папки?
         static bool printAccessReadFolderError = true;  // Печатать ли предупреждения, когда папка недоступна для чтения?
         static bool whyPrintSpaseLvl = true;            // Выводить пробелы как уровни для папок? (если = false), то они будут выводится со спецсимволами типо └──
 
+
         public static string OutTextToTxtFiles = "";    // Весь текст вывода
         // После выполнения сканирования, он сохраняется в тестовый буферный файл Out_1.txt который лежит в корне проекта,
         // и возвращается как ответ на запрос сканирования структуры диска С
 
+
         // Статистика:
 
-        static int AllShowStrings = 0;           // Всего строк было выведено
-        static int MaxLvlFromRecurse = 0;        // Максимальный уровень рекурсии (кол-ва вложенных папок друг в друга)
+        static int AllShowStrings = 0;                  // Всего строк было выведено
+        static int MaxLvlFromRecurse = 0;               // Максимальный уровень рекурсии (кол-ва вложенных папок друг в друга)
 
 
 
@@ -324,7 +342,6 @@ namespace WebApplication1
         {
             // Выводим текущую время и дату
             print("🕓 Текущая дата и время: " + DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss") + "");
-            // !!!! Либо: "Данные актуальны на :" + ... /////////////////////////////////////////////////////// тут дополнить 
 
             // Получаем текущее имя пользователя
             string username = Environment.UserName;

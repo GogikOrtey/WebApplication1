@@ -9,7 +9,15 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class StructDiskCController : ControllerBase
     {
-        // GET: api/<StructDiskCController>
+        // Запрос на получение буферных значений
+        [HttpGet("/StructDiskC_Bufer")]
+        public IEnumerable<string> GetBufer()
+        {
+            string[] response = SplitStringByNewline(ScanDiscC.GetBufer_StructDiskC());
+            return response;
+        }
+
+        // Запрос на новое сканирование диска
         [HttpGet("/StructDiskC")]
         public IEnumerable<string> Get()
         {
@@ -19,18 +27,15 @@ namespace WebApplication1.Controllers
             return response;
         }
 
-        [HttpGet("/StructDiskC_Bufer")]
-        public IEnumerable<string> GetBufer()
-        {
-            string[] response = SplitStringByNewline(ScanDiscC.GetBufer_StructDiskC());
-            return response;
-        }
+
 
         // Процедура, которая строку с переносами типа \n
         // разбивает на массив строк, и возвращает его (для корректного вывода в JSON формате)
         static string[] SplitStringByNewline(string input)
         {
-            return input.Split(new[] { '\n' }, StringSplitOptions.None);
+            string[] outp =  input.Split(new[] { '\n' }, StringSplitOptions.None);
+            Array.Resize(ref outp, outp.Length - 1); // Удаляем последний элемент массива, т.к. это пустая строка
+            return outp;
         }
     }
 }
