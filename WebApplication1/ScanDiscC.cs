@@ -400,7 +400,7 @@ namespace WebApplication1
             }
         }
 
-        // Первая, текстовая процедура
+        // Первая, тестовая процедура
         // Выводит все папки диска С, без вложенных
         static void DisplFoldersFromDiskC(string rootPath = @"C:\")
         {
