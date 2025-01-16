@@ -217,13 +217,11 @@ namespace WebApplication1
 
         static void Main(string[] args)
         {
-            // Создаем объект Stopwatch
-            Stopwatch stopwatch = new Stopwatch();
-
             // Запускаем таймер
+            Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
-            UndoStatsPrint();
+            UndoStatsPrint();                       // Что выводит перед структурой папок
 
             // Основная процедура рекурсивного поиска вложенных папок, и вывода их названий в консоль
             RecurseDisplFoldersFromDiskC();
@@ -231,7 +229,7 @@ namespace WebApplication1
             // Останавливаем таймер
             stopwatch.Stop();
 
-            PrintStats();
+            PrintStats();                           // Печатает статистику в конце вывода
 
             if (stopwatch.ElapsedMilliseconds / 1000 > 120)
             {
@@ -244,7 +242,8 @@ namespace WebApplication1
                 print("\nВремя выполнения: " + stopwatch.ElapsedMilliseconds / 1000 + " секунд\n");
             }
 
-            SaveTextToFile();
+            SaveTextToFile();                       // Кеширует полученную структуру папок - в текстовый файл
+            WriteCurrentCPUidValue_FromTxtFile();   // Сохраняет id текущего компьютера
         }
 
         // Настраиваемые параметры:

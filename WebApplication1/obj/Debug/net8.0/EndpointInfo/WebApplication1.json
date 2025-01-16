@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "WebApplication1",
-    "version": "1.0"
+    "title": "My API",
+    "version": "v1"
   },
   "paths": {
     "/StructDiskC": {
@@ -10,6 +10,7 @@
         "tags": [
           "StructDiskC"
         ],
+        "description": "Этот эндпоинт может занять до 5 минут для обработки запроса.",
         "responses": {
           "200": {
             "description": "OK",
