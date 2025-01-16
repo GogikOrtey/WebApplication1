@@ -6,8 +6,8 @@
 
 ### Реализация: 
 
-Главный файл с реализацией сканирования: 📘 ScanDiscC.cs  
-Файл, где описаны методы: 📗 Controllers/StructDiskCController.cs
+Главный файл с реализацией сканирования: 📘 ScanDiscC.cs 📘  
+Файл, где описаны методы: 📗 Controllers/StructDiskCController.cs 📗
 
 Скриншот выполнения главного запроса в Swagger:
 
